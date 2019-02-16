@@ -1,14 +1,14 @@
 # Site settings
-title:       Pixyll
-email:       your_email@example.com
-author:      John Otander
-description: "A simple, beautiful theme for Jekyll that emphasizes content rather than aesthetic fluff."
+title:       Fares Bessr
+email:       bessr@pm.me
+author:      Fares Bessrour
+description: "My personal blog page"
 baseurl:     ""
-url:         "http://pixyll.com"
+url:         "https://www.faresbessrour.com/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.html
+ - contact.md
 
 # Google services
 google_verification:

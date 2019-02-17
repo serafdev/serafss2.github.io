@@ -18,7 +18,7 @@ So your request will trigger the viewset `ItemViewSet` which contains the defaul
 
 Here's what I found:
 
-```
+```python
 class ListModelMixin(object):
     """
     List a queryset.

@@ -73,3 +73,18 @@ This will split your query parameter `category__in=1,2,3` into an array `[1,2,3]
 Happy Pythoning!
 
 *PS: If you find an issue or a way to improve this article, please open an issue [here](https://github.com/serafss2/serafss2.github.io/issues).*
+
+*Note1: Try these 'Falsy' variables*
+```python
+if not []: print('List is empty')
+if not '': print('String is empty')
+```
+
+
+*Note2: You could also take all query parameters and directly build your dictionary, something like:*
+
+```python
+[Q(**{k: v}) for k, v in self.request.GET]
+```
+
+*You could also make a function that would translate `__in` to splitting the value, etc. I didn't try something like this yet but if I find the need I would update this article, if you do it, feel free to contribute*

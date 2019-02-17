@@ -24,7 +24,7 @@ Analyst Programmer (Backend, Network Automation / Python, Django, Docker)
 
 Automating network stuff like creating LTM Virtual Servers, IP addresses manipulation (reserve/free/modify), something with CISCO routers, etc. I'll update this when I'll have the right vocabulary, I still have to read my notes while I code.
 
-##### Faimdata (Dec 2016 - Dec 2018)
+#### Faimdata (Dec 2016 - Dec 2018)
 Software Engineer (Back-end, DevOps / Scala, Python, BigQuery, Postgresql, Docker, Kubernetes)
  
 Worked as a Backend developer using Scala, Python and BigQuery to build a highly scalable CI tool in a data environment. Moved the legacy network architecture from manual deployments to Nginx, Docker and Kubernetes with continuous integration and delivery with Jenkins, saved the developers a * ton of time. Built a Micro-Queries library that took care of reccurent logic in our Data Scientist's Queries, it helped the performance of APIs from >1min to <10 seconds, also added a Memcached server to our APIs which enhanced most requests to <.2second, pretty satisfying if you ask me.
@@ -33,6 +33,6 @@ Worked as a Backend developer using Scala, Python and BigQuery to build a highly
 
 ### Education
 #### Université de Montréal
-Compure Science Major
+Computer Science Major
 
 A lot of algorithmics, data structures, software engineering, mathematics, statistics, etc. Same as everyone else

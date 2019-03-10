@@ -25,11 +25,11 @@ Now, we absolutely can do this in python, also in a one liner like this:
 
 ```python
 some_data = {"yes": [1, 2, 3], "no": [3, 4, 5]}
-[x for x in set([y for _, v in some_data.items() for y in v if y % 2 == 0])]
+[x for x in set([y for v in some_data.values() for y in v if y % 2 == 0])]
 > [2, 4]
 ```
 
-This does almost the same thing, but is not as easy to read. First we flatten the values of the dictionary with `[y for _, v in some_data.items() for y in v]`. Then we can use `set` to discard duplicates (A set in python is just a hashset, so the `"keys"` must be unique). Then we can just add a simple filter in the first part to check if the numbers we are adding are even: `if y % 2 == 0`.
+This does almost the same thing, but is not as easy to read. First we flatten the values of the dictionary with `[y for v in some_data.values() for y in v]`. Then we can use `set` to discard duplicates (A set in python is just a hashset, so the `"keys"` must be unique). Then we can just add a simple filter in the first part to check if the numbers we are adding are even: `if y % 2 == 0`.
 
 On a side note, it took me time to understand how flattening works in python, these one liners are pretty satisfying but I try to avoid them in production because I don't want whoever debugging to come hunt me while I'm sleeping.
 
@@ -76,7 +76,7 @@ If we go to the first example we would have:
 
 ```python
 some_data = {"yes": [1, 2, 3], "no": [3, 4, 5]}
-list_([v for _, v in some_data.items()]).flatten().distinct().filter(lambda x: x % 2 == 0)
+list_(some_data.values()).flatten().distinct().filter(lambda x: x % 2 == 0)
 > [2, 4]
 ```
 

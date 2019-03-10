@@ -2,7 +2,7 @@
 layout: post
 title: Things I wish I could add to Python
 date: 2019-03-09 22:29
-summary: So I extended the built-in list function to add some helpful functions.
+summary: So I extended the built-in list class to add some helpful functions.
 categories: python, cpython
 ---
 

@@ -3,7 +3,7 @@ layout: post
 title: Django filtering with query parameters
 date: 2019-02-17 07:24
 summary: A way to add a generic optional filtering to Django /GET request, e.g /GET /items?name__startswith=Graph
-categories: code challenges
+categories: django, python
 ---
 
 #### Problem
@@ -27,7 +27,7 @@ class ListModelMixin(object):
         queryset = self.filter_queryset(self.get_queryset())
         ...
         serializer = self.get_serializer(queryset, many=True)
-    return Response(serializer.data)
+        return Response(serializer.data)
 ```
 
 To modify the behaviour we need to override the `get_queryset()`, I am not sure if we should override the `def list()` function but it looked to me that if I did that, the `get_queryset()` will return everything and then we filter in the backend, which I don't want.

@@ -24,7 +24,7 @@ This looks pretty nice and concise, and very easy to read. Every function speaks
 Now, we absolutely can do this in python, also in a one liner like this:
 
 ```python
-some_data: Dict[str, int] = {"yes": [1, 2, 3], "no": [3, 4, 5]}
+some_data = {"yes": [1, 2, 3], "no": [3, 4, 5]}
 [x for x in set([y for v in some_data.values() for y in v if y % 2 == 0])]
 > [2, 4]
 ```
@@ -75,7 +75,7 @@ This is definitely easier to read, we know that we have a nested list and we fla
 If we go to the first example we would have:
 
 ```python
-some_data: Dict[str, int] = {"yes": [1, 2, 3], "no": [3, 4, 5]}
+some_data = {"yes": [1, 2, 3], "no": [3, 4, 5]}
 list_(some_data.values()).flatten().distinct().filter(lambda x: x % 2 == 0)
 > [2, 4]
 ```

@@ -3,7 +3,7 @@ layout: post
 title: Gunicorn WSGI Dockerfile (Python webserver)
 date: 2019-10-05 15:45
 summary: A docker image running a Django app behind a gunicorn WSGI. Could also work with any other python webapp.
-categories: django, docker, gunicorn
+categories: devops docker gunicorn
 ---
 
 ### Write the Dockerfile

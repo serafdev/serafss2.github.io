@@ -3,7 +3,7 @@ layout: post
 title: Django filtering with query parameters
 date: 2019-02-17 07:24
 summary: A way to add a generic optional filtering to Django /GET request, e.g /GET /items?name__startswith=Graph
-categories: django, python
+categories: webdev python django
 ---
 
 #### Problem

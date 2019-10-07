@@ -3,7 +3,7 @@ layout: post
 title: Generate a CSR/Key pair with openssl (linux)
 date: 2019-05-01 20:36
 summary: I'll just show you how to generate a CSR/Key pair with openssl on linux, I use it all the time so putting it here to not lose it is helpful.
-categories: linux, security, openssl
+categories: linux security openssl
 ---
 
 #### Command

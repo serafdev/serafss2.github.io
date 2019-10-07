@@ -3,7 +3,7 @@ layout: post
 title: Things I wish I could add to Python
 date: 2019-03-09 22:29
 summary: So I extended the built-in list class to add some helpful functions.
-categories: python, cpython
+categories: cpython
 ---
 
 ### Things I wish I could add to Python

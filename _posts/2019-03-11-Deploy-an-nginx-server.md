@@ -3,7 +3,7 @@ layout: post
 title: Deploy an nginx server
 date: 2019-03-11 18:00
 summary: An easy guide for deploying an nginx server.
-categories: nginx, sysadmin, linux
+categories: devops nginx
 ---
 
 ### Deploy an nginx server

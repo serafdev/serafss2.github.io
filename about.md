@@ -20,9 +20,11 @@ Python, Scala, Docker, Kubernetes, Cloud environment, Linux, etc
 
 ###  Professional experience 
 #### Desjardins (Jan 2019 - Present)
-Analyst Programmer (Backend, Network Automation / Python, Django, Docker)
+Network Automation Consultant (Backend, Network, Security, etc)
 
-Automating network stuff like creating LTM Virtual Servers, IP addresses manipulation (reserve/free/modify), something with CISCO routers, etc. I'll update this when I'll have the right vocabulary, I still have to read my notes while I code.
+Automating network stuff like creating LTM Virtual Servers, automating SSL certificate enrollments, revocations, etc.
+
+Taking care of the apps infrastructure, e.g deployments, stuff with ansible, jenkins.
 
 #### Faimdata (Dec 2016 - Dec 2018)
 Software Engineer (Back-end, DevOps / Scala, Python, BigQuery, Postgresql, Docker, Kubernetes)

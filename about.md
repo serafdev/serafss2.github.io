@@ -24,16 +24,16 @@ Python, Scala, Docker, Kubernetes, Cloud environment, Linux, etc
 #### Desjardins (Jan 2019 - Nov 2019)
 Software Consultant (Network Automation)
 
-###### Infrastructure
+##### Infrastructure
 Put in place our application's network infrastructure (Gunicorn/Nginx + Nginx/Vue.js static files) and contributed in the deployment automation using the ansible-cli.
 
 Contributed in the Continuous Testing using Jenkins.
-###### F5 BigIP Automation (LTM)
+##### F5 BigIP Automation (LTM)
 Creation of Virtual Servers and sub-tree, aka pools, pool-members, ssl certificate objects, etc. Worked mostly on the backend side using Python.
 
 Created validations for our end-user's form with real-time queries to the BigIPs on the clusters. Helped design the network configuration file injected by ansible to create the LTM objects on the BigIP.
 
-###### OpenTrust SSL Certificates Enrollment Automation (IDnomic)
+##### OpenTrust SSL Certificates Enrollment Automation (IDnomic)
 Automated the SSL Certificates enrollment using the OpenTrustRA (Registration Authority) SOAP api. Created an app that uses the RA SOAP api. Designed the buffer database to keep security logs and rollbacks easily queried (revokes, renewals, etc).
 
 The automation took care of creating the private key on the server and generating the public SSL Certificate on the machine. In the case of the BigIP the application would go and create an SSL Certificate on the BigIP and enrolled a signed public certificate using the OpenTrust APIs.

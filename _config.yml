@@ -8,7 +8,6 @@ url:         "https://www.faresbessrour.com/"
 date_format: "%b %-d, %Y"
 header_pages:
  - about.md
- - contact.md
 
 # Google services
 google_verification:
@@ -38,11 +37,11 @@ fb_page_id:
 
 # Disqus post comments
 # (leave blank to disable Disqus)
-disqus_shortname: faresbessrour
+disqus_shortname:
 
 # Utterances github comments (utterances_repo: github_username/repository)
 # (leave blank to disable Utterances)
-utterances_repo:
+utterances_repo: serafss2/serafss2.github.io
 utterances_issue-term: pathname
 utterances_theme: github-light
 utterances_crossorigin: anonymous
@@ -54,15 +53,15 @@ facebook_appid:
 facebook_comments_number: 10
 
 # Social icons
-github_username:
+github_username: serafss2
 reddit_username:
 bitbucket_username:
-stackoverflow_id:
-twitter_username:
+stackoverflow_id: 3431636
+twitter_username: serafss2
 skype_username:
 steam_nickname:
 google_plus_id:
-linkedin_username:
+linkedin_username: fares-b-815a63b3
 angellist_username:
 medium_id:
 bitcoin_url:
@@ -74,10 +73,10 @@ vk_id:
 # Post sharing icons
 show_sharing_icons: false
 # Change to 'true' to enable individual icons
-share_facebook: false
-share_twitter: false
+share_facebook: true
+share_twitter: true
 share_googleplus: false
-share_linkedin: false
+share_linkedin: true
 share_digg: false
 share_tumblr: false
 share_reddit: false
